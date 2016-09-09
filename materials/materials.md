@@ -6,3 +6,7 @@
 * [Практика 0. Node.js](https://docs.google.com/document/d/1mld2i2IOzibbQfRr7puVZnyphCHn0UK3egm39uZFKEg/edit?usp=sharing)
 * [Практика 1. Реалізації TCP/UPD серверів](https://docs.google.com/document/d/1QRFYQpjH-req_u8AMalLP_6CwyAlngp5j8NCFeiVKtc/edit?usp=sharing)
 * [Практика 2. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
+
+#### Розділ 2. Веб-сервери
+
+#### Розділ 3. Веб-додатки
