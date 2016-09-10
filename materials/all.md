@@ -1,5 +1,3 @@
-**[Лабораторні роботи](/webprog_labs.html)**
-
 ### Матеріали
 #### Розділ 1. Мережа Інтернет та WWW
 * [Лекція 1. Мережа Інтернет. Інтернет-протоколи](https://docs.google.com/document/d/1b-kMAThhYetpXmOm4a9W56UmpzobcO0E206dES1MGr8/edit?usp=sharing)
