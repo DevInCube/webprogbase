@@ -6,6 +6,9 @@
 * [Лекція 4. CSS стилі для HTML-сторінок. CSS препроцесори](https://docs.google.com/document/d/1GW0ElUPt42Ovl1N-0vdzh5Ov0Pmc_XcVVm1vh5_Om_0/edit?usp=sharing)
 * [Практика 1. Node.js. TCP/UPD сервери](https://docs.google.com/document/d/1mld2i2IOzibbQfRr7puVZnyphCHn0UK3egm39uZFKEg/edit?usp=sharing)
 * [Практика 2. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
+* [Практика 3. Створення локальних веб-документів. HTML](https://docs.google.com/document/d/1SfcG2e1EjjhKd4cuurEgtgq8J4eb07eOfD4jVn-zYXI/edit?usp=sharing)
+* [Практика 4. Стилізація веб-документів. CSS](https://docs.google.com/document/d/1v4kIemN3qgGfmeOXYWrJ3kmvqa0OIXCXR5XigcTx010/edit?usp=sharing)
+* [Практика 5. Перенесення веб-документів на веб-сервер](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
 
 #### Розділ 2. Веб-сервери
 * Лекція 1. Рівнева архітектура веб-програм
