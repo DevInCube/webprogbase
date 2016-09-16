@@ -11,19 +11,19 @@
 * [__Практика 5__. Перенесення веб-документів на веб-сервер](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
 
 #### Розділ 2. Веб-сервери
-* Лекція 1. Рівнева архітектура веб-програм
-* Лекція 2. Бази даних. СКБД PostgreSQL, MongoDB. RPC i REST
-* [Лекція 3. HTML форми та обробка даних форм на сервері](https://docs.google.com/document/d/1v4XTd-GjySxMYO9bJe5r1qvbp1Ar6aoYdr0XM4vDfQ4/edit?usp=sharing)
-* Лекція 4. Ідентифікація, аутентифікація та авторизація
-* Лекція 5. Cookies, клієнтські сесії та WebStorage API
+* __Лекція 1__. Рівнева архітектура веб-програм
+* __Лекція 2__. Бази даних. СКБД PostgreSQL, MongoDB. RPC i REST
+* [__Лекція 3__. HTML форми та обробка даних форм на сервері](https://docs.google.com/document/d/1v4XTd-GjySxMYO9bJe5r1qvbp1Ar6aoYdr0XM4vDfQ4/edit?usp=sharing)
+* __Лекція 4__. Ідентифікація, аутентифікація та авторизація
+* __Лекція 5__. Cookies, клієнтські сесії та WebStorage API
 
 #### Розділ 3. Веб-додатки
-* [Лекція 1. DOM-модель. Події. Клієнтський JavaScript](https://docs.google.com/document/d/1mIldGzuvFkXogoe8Y-nOXhJxcXXkmFcXeO9jFhLW42Y/edit?usp=sharing)
-* Лекція 2. Фронт-енд. Веб-фреймворки. MVC
-* [Лекція 3. AJAX. Web 2.0. SPA](https://docs.google.com/document/d/1g89aZVP6LewN0897_60rj8KPceHCwHUqWPEX7Kyu4ho/edit?usp=sharing)
-* [Лекція 4. Безпека веб-додатків](https://docs.google.com/document/d/1OiSVXT9-vU5WYfR-ECPRxPHJnn9moi9u80kptfIhRyE/edit?usp=sharing)
-* [Лекція 5. Кешування даних](https://docs.google.com/document/d/19t3JmKHsdtKV8HYWPPLw_804qeRxpST493L-azXjOjs/edit?usp=sharing)
-* Лекція 6. Великі веб-додатки. Розгортання веб-сервісів
+* [__Лекція 1__. DOM-модель. Події. Клієнтський JavaScript](https://docs.google.com/document/d/1mIldGzuvFkXogoe8Y-nOXhJxcXXkmFcXeO9jFhLW42Y/edit?usp=sharing)
+* __Лекція 2__. Фронт-енд. Веб-фреймворки. MVC
+* [__Лекція 3__. AJAX. Web 2.0. SPA](https://docs.google.com/document/d/1g89aZVP6LewN0897_60rj8KPceHCwHUqWPEX7Kyu4ho/edit?usp=sharing)
+* [__Лекція 4__. Безпека веб-додатків](https://docs.google.com/document/d/1OiSVXT9-vU5WYfR-ECPRxPHJnn9moi9u80kptfIhRyE/edit?usp=sharing)
+* [__Лекція 5__. Кешування даних](https://docs.google.com/document/d/19t3JmKHsdtKV8HYWPPLw_804qeRxpST493L-azXjOjs/edit?usp=sharing)
+* __Лекція 6__. Великі веб-додатки. Розгортання веб-сервісів
 
 ### Додатково
 #### Мова програмування **JavaScript**
