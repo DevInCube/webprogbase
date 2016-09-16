@@ -1,14 +1,14 @@
 ### Матеріали
 #### Розділ 1. Мережа Інтернет та WWW
-* [Лекція 1. Мережа Інтернет. Інтернет-протоколи](https://docs.google.com/document/d/1b-kMAThhYetpXmOm4a9W56UmpzobcO0E206dES1MGr8/edit?usp=sharing)
-* [Лекція 2. World Wide Web (WWW). URL. Протоколи FTP та HTTP. URL](https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit?usp=sharing)
-* [Лекція 3. Веб-документи. HTML](https://docs.google.com/document/d/1Tv8rHao5HrPVEXb-oBW0PBNob6lxxRNrDgeYRsNXrUM/edit?usp=sharing)
-* [Лекція 4. CSS стилі для HTML-сторінок. CSS препроцесори](https://docs.google.com/document/d/1GW0ElUPt42Ovl1N-0vdzh5Ov0Pmc_XcVVm1vh5_Om_0/edit?usp=sharing)
-* [Практика 1. Node.js. TCP/UPD сервери](https://docs.google.com/document/d/1mld2i2IOzibbQfRr7puVZnyphCHn0UK3egm39uZFKEg/edit?usp=sharing)
-* [Практика 2. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
-* [Практика 3. Створення локальних веб-документів. HTML](https://docs.google.com/document/d/1SfcG2e1EjjhKd4cuurEgtgq8J4eb07eOfD4jVn-zYXI/edit?usp=sharing)
-* [Практика 4. Стилізація веб-документів. CSS](https://docs.google.com/document/d/1v4kIemN3qgGfmeOXYWrJ3kmvqa0OIXCXR5XigcTx010/edit?usp=sharing)
-* [Практика 5. Перенесення веб-документів на веб-сервер](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
+* [__Лекція 1__. Мережа Інтернет. Інтернет-протоколи](https://docs.google.com/document/d/1b-kMAThhYetpXmOm4a9W56UmpzobcO0E206dES1MGr8/edit?usp=sharing)
+* [__Лекція 2__. World Wide Web (WWW). URL. Протоколи FTP та HTTP. URL](https://docs.google.com/document/d/1aUdlTlbHDYhhdf2gVs1j94FmBrLviKb8QLfFVxqi-0A/edit?usp=sharing)
+* [__Лекція 3__. Веб-документи. HTML](https://docs.google.com/document/d/1Tv8rHao5HrPVEXb-oBW0PBNob6lxxRNrDgeYRsNXrUM/edit?usp=sharing)
+* [__Лекція 4__. CSS стилі для HTML-сторінок. CSS препроцесори](https://docs.google.com/document/d/1GW0ElUPt42Ovl1N-0vdzh5Ov0Pmc_XcVVm1vh5_Om_0/edit?usp=sharing)
+* [__Практика 1__. Node.js. TCP/UPD сервери](https://docs.google.com/document/d/1mld2i2IOzibbQfRr7puVZnyphCHn0UK3egm39uZFKEg/edit?usp=sharing)
+* [__Практика 2__. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
+* [__Практика 3__. Створення локальних веб-документів. HTML](https://docs.google.com/document/d/1SfcG2e1EjjhKd4cuurEgtgq8J4eb07eOfD4jVn-zYXI/edit?usp=sharing)
+* [__Практика 4__. Стилізація веб-документів. CSS](https://docs.google.com/document/d/1v4kIemN3qgGfmeOXYWrJ3kmvqa0OIXCXR5XigcTx010/edit?usp=sharing)
+* [__Практика 5__. Перенесення веб-документів на веб-сервер](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
 
 #### Розділ 2. Веб-сервери
 * Лекція 1. Рівнева архітектура веб-програм
