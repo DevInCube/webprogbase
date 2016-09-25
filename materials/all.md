@@ -8,7 +8,7 @@
 * [__Практика 2__. Створення веб-сервера (Node.js)](https://docs.google.com/document/d/1VudR5m8HZ9S7RMNT3ge9b8hED8Lchx-OdPRVPY5gUK8/edit?usp=sharing)
 * [__Практика 3__. Створення локальних веб-документів. HTML](https://docs.google.com/document/d/1SfcG2e1EjjhKd4cuurEgtgq8J4eb07eOfD4jVn-zYXI/edit?usp=sharing)
 * [__Практика 4__. Стилізація веб-документів. CSS](https://docs.google.com/document/d/1v4kIemN3qgGfmeOXYWrJ3kmvqa0OIXCXR5XigcTx010/edit?usp=sharing)
-* [__Практика 5__. Перенесення веб-документів на веб-сервер](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
+* [__Практика 5__. Перенесення веб-документів на веб-сервер. Шаблонізатор EJS](https://docs.google.com/document/d/1iki7n8Lv6vigWvxzIH4Q9WfCG2VD2tLbN-3SW1xD1wo/edit?usp=sharing)
 * [__Практика 6__. Використання веб-фреймворку ExpressJS](https://docs.google.com/document/d/1UeVu_m42o9gMfahnI9J8rqP1X12hMahNXrBKtf763Ro/edit?usp=sharing)
 
 #### Розділ 2. Веб-сервери
