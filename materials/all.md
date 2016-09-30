@@ -12,11 +12,10 @@
 * [__Практика 6__. Використання веб-фреймворку ExpressJS](https://docs.google.com/document/d/1UeVu_m42o9gMfahnI9J8rqP1X12hMahNXrBKtf763Ro/edit?usp=sharing)
 
 #### Розділ 2. Веб-сервери
-* __Лекція 1__. Рівнева архітектура веб-програм
-* __Лекція 2__. Бази даних. СКБД PostgreSQL, MongoDB. RPC i REST
-* [__Лекція 3__. HTML форми та обробка даних форм на сервері](https://docs.google.com/document/d/1v4XTd-GjySxMYO9bJe5r1qvbp1Ar6aoYdr0XM4vDfQ4/edit?usp=sharing)
-* __Лекція 4__. Ідентифікація, аутентифікація та авторизація
-* __Лекція 5__. Cookies, клієнтські сесії та WebStorage API
+* [__Лекція 1__. HTML форми та обробка даних форм на сервері](https://docs.google.com/document/d/1v4XTd-GjySxMYO9bJe5r1qvbp1Ar6aoYdr0XM4vDfQ4/edit?usp=sharing)
+* [__Лекція 2__. Бази даних. СКБД PostgreSQL, MongoDB. RPC i REST](https://docs.google.com/document/d/1eUSkjpnFdsBIcmFfr3VuYU5NYDZWcWqJcokqozLJNHk/edit?usp=sharing)
+* __Лекція 3__. Ідентифікація, аутентифікація та авторизація
+* __Лекція 4__. Cookies, клієнтські сесії та WebStorage API
 
 #### Розділ 3. Веб-додатки
 * [__Лекція 1__. DOM-модель. Події. Клієнтський JavaScript](https://docs.google.com/document/d/1mIldGzuvFkXogoe8Y-nOXhJxcXXkmFcXeO9jFhLW42Y/edit?usp=sharing)
