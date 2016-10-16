@@ -16,8 +16,8 @@
 * [__Лекція 2__. Бази даних. СКБД PostgreSQL, MongoDB](https://docs.google.com/document/d/1eUSkjpnFdsBIcmFfr3VuYU5NYDZWcWqJcokqozLJNHk/edit?usp=sharing)
 * [__Лекція 3__. Взаємодія із серверами. RPC i REST](https://docs.google.com/document/d/1itXB78R5S8LMTUG3iAeDROSuB01IalxLV_Woe8Ufezc/edit?usp=sharing)
 * [__Лекція 4__. Ідентифікація, аутентифікація та авторизація. Сесії та cookies](https://docs.google.com/document/d/1FtMf7wM4i6hvHKhlGk9pOVhubPaJ1q0lRzw7eSJ6Now/edit?usp=sharing)
-* [__Практика 1__. Обробка даних форм.](https://docs.google.com/document/d/161QGwC2GwhoXnf11kC83CY4vZ7t0FaoKj5keog3AObA/edit?usp=sharing)
-* [__Практика 2__. База даних MongoDB.](https://docs.google.com/document/d/1Oy6_hV-YEjYZOxlqWqR5SseA1CC6goMkzZ2qpdxDCQM/edit?usp=sharing)
+* [__Практика 1__. Обробка даних форм](https://docs.google.com/document/d/161QGwC2GwhoXnf11kC83CY4vZ7t0FaoKj5keog3AObA/edit?usp=sharing)
+* [__Практика 2__. База даних MongoDB](https://docs.google.com/document/d/1Oy6_hV-YEjYZOxlqWqR5SseA1CC6goMkzZ2qpdxDCQM/edit?usp=sharing)
 
 #### Розділ 3. Веб-додатки
 * [__Лекція 1__. DOM-модель. Події. Клієнтський JavaScript](https://docs.google.com/document/d/1mIldGzuvFkXogoe8Y-nOXhJxcXXkmFcXeO9jFhLW42Y/edit?usp=sharing)
