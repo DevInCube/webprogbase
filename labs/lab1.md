@@ -41,7 +41,7 @@
 ## Лістинг
 
 __server.js__
-~~~~javascript
+~~~~js
 var net = require('net');
 var server = net.createServer(function(connection) {
    console.log('client %s:%s connected', connection.remoteAddress, connection.remotePort);
@@ -68,7 +68,7 @@ server.listen(8080, function() {
 ~~~~
 
 __client.js__
-~~~~javascript
+~~~~js
 const net = require('net');
 const stdin = process.openStdin();
 const connectionOptions = {
