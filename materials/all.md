@@ -26,7 +26,7 @@
 * [__Лекція 3__. Різне: RegExp, WebSockets, WebRTC __[doc]__](https://docs.google.com/document/d/1ELrOLdMG0wKgKKzx2YngUsayla6fhqH_879QLdpc27k/edit?usp=sharing)
 * [__Лекція 4__. Безпека веб-додатків __[presentation]__](https://docs.google.com/presentation/d/17GlvPLQGc3VRGhe4qH1QQTqq6Aac7SJcTD5nIPrGsSg/edit?usp=sharing)
 * [__Лекція 4__. Безпека веб-додатків __[doc]__](https://docs.google.com/document/d/1OiSVXT9-vU5WYfR-ECPRxPHJnn9moi9u80kptfIhRyE/edit?usp=sharing)
-* [__Лекція 5__. Великі веб-додатки. Кешування даних. Розгортання веб-сервісів__[presentation]__](https://docs.google.com/presentation/d/1jytcxN2QytbchuERUO-hp7UaAionvZIb1Yz6Z4wn13I/edit?usp=sharing)
+* [__Лекція 5__. Великі веб-додатки. Кешування даних. Розгортання веб-сервісів __[presentation]__](https://docs.google.com/presentation/d/1jytcxN2QytbchuERUO-hp7UaAionvZIb1Yz6Z4wn13I/edit?usp=sharing)
 * [__Лекція 5__. Кешування даних __[doc]__](https://docs.google.com/document/d/19t3JmKHsdtKV8HYWPPLw_804qeRxpST493L-azXjOjs/edit?usp=sharing)
 
 ### Додатково
