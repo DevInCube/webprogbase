@@ -34,6 +34,8 @@
 * [Лекція 1. Основи JavaScript.](https://docs.google.com/document/d/1w26wGUTvzBC9bLhoNEfjV4RJPTJ6nlYL6ue3Hc8NKD4/edit?usp=sharing)
 * [Лекція 2. JavaScript функції.](https://docs.google.com/document/d/1YCbH5xZuIL4F0R_0ZSNdm5FlMLqpXv2WnfVgUApD3ic/edit?usp=sharing)
 * [Лекція 3. Об'єктно-орієнтоване програмування на JavaScript.](https://docs.google.com/document/d/17WC2xmCFv9TdOAKvDK0ETcR-bYsk22i1m9aCRZFYARQ/edit?usp=sharing)
+* [Асинхронність у JavaScript](https://github.com/PublicHadyniak/webprogbase/wiki/%D0%90%D1%81%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D1%96%D1%81%D1%82%D1%8C-%D1%83-JavaScript)
+* [JavaScript Promises](https://github.com/PublicHadyniak/webprogbase/wiki/JavaScript-Promises)
 
 #### Мова програмування **Python**
 * [Лекція 1. Основи Python.](https://docs.google.com/document/d/1T3bio3l5GGc9-4XBGFstfcj8i67MfFygu-bYqvB0haU/edit?usp=sharing)
