@@ -19,6 +19,48 @@
 
 ## Приклад 
 
+Реєстрація користувачів на сайті:
+
+__users_index.ejs__
+
+~~~~ html
+<form action='/register' method='POST'>
+	<label>Username:</label>
+	<input type='text' name='username' class='form-control' value='user' />
+	<label>Password:</label>
+	<input type='password' name='pass' class='form-control' value='' />
+	<label>Repeat password:</label>
+	<input type='password' name='pass2' class='form-control' value='' />
+	<button type='submit' class='btn btn-primary'>Register</button>
+</form>
+~~~~
+
+__app.js__
+
+~~~~ javascript 
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+
+app.set('view engine', 'ejs');
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.get('/',
+	(req, res) => res.render('users_index', { user: req.user }));
+	
+app.post('/register',
+	(req, res) => {
+		let username = req.body.username;
+		let pass = req.body.pass;
+		let pass2 = req.body.pass2;
+		// @todo перевірити валідність даних і створити нового користувача у БД 
+		res.redirect('/');
+	});
+app.listen(3000, () => console.log('App on 3000'));
+~~~~
+
 Аутентифікація на сайті за допомогою PassportJS:
 
 ~~~~ javascript
@@ -80,6 +122,31 @@ app.get('/logout', (req, res) => {
 });
 
 app.listen(3000, () => console.log('App on 3000'));
+~~~~
+
+Приклад обмеження доступу до ресурсів системи для певних ролей користувачів:
+
+~~~~ javascript
+// ресурс доступний всім користувачам, навіть неаутентифікованих
+app.get('/', 
+    (req, res) => res.render('auth_index', { user: req.user }));
+
+// ресурс доступний тільки аутентифікованим користувачам
+app.get('/profile',
+    (req, res, next) => {
+        if (req.user) next();  // пропускати далі тільки аутентифікованих
+        else res.status(401).end('Not authorized');
+    },
+    (req, res) => res.end('User profile page'));
+
+// ресурс доступний аутентифікованим користувачам із роллю 'admin'
+app.get('/admin',
+    (req, res, next) => {
+        if (!req.user) res.status(401).end('Not authorized');
+        else if (req.user.role !== 'admin') res.status(403).end('Forbidden');
+        else next();  // пропускати далі тільки аутентифікованих із роллю 'admin'
+    },
+    (req, res) => res.end('Admin page'));
 ~~~~
 
 ## Демонстрація
