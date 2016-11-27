@@ -11,6 +11,29 @@
 1. На сторінці пошуку об’єктів замінити HTTP GET запит із переходом на сторінку результатів на AJAX GET запит із динамічним оновленням поточної сторінки та відображення результатів пошуку.
 1. Використати клієнтський шаблонізатор сторінок (наприклад, [Mustache](https://www.google.com/url?q=https://github.com/janl/mustache.js&sa=D&ust=1476659636650000&usg=AFQjCNHD_43DunvosTq-KaBA5CgHTmvdjg)) для створення нових DOM-елементів сторінки клієнтським JavaScript.
 
+Приклад AJAX-запиту:
+
+~~~~ javascript
+function doSearch() {
+  // створити новий об'єкт AJAX-запиту
+  var xhttp = new XMLHttpRequest();
+  // підписатись на зміну стану об'єкта
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // у стані (this.readyState) 4 об'єкт повністю прийняв відповідь від сервера
+      // this.status - код HTTP статуса відповіді
+      // this.responseText - HTTP тіло відповіді
+      var data = this.responseText;
+      // @todo опрацювати прийняті дані
+    }
+  };
+  // задати опції запиту до веб-сервера (GET /get_data)
+  xhttp.open("GET", "/get_data", true);
+  // відправити запит
+  xhttp.send();
+}
+~~~~
+
 ## Демонстрація
 
 * Продемонструвати часткове оновлення вмісту сторінки за допомогою AJAX-запитів і клієнтського JavaScript.
