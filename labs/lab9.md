@@ -37,7 +37,7 @@
 1. На сайті Heroku на вкладці Resources Вашої програми знайти кнопку (Find More Add-on). 
 1. Після переходу на нову сторінку знайти аддон [__mLab MongoDB__](https://elements.heroku.com/addons/mongolab)
 
-  [!mLab](https://s3.amazonaws.com/assets.heroku.com/addons.heroku.com/icons/343/original.png?1456768674)
+  ![mLab](https://s3.amazonaws.com/assets.heroku.com/addons.heroku.com/icons/343/original.png?1456768674)
 
 1. Залогіньтесь (Login to install), нажміть (Install mLab MongoDB) та оберіть Ваш веб-додаток, для якого потрібно підключити аддон.
 1. Після підключення на вкладці Resources з'явиться інформація про mLab MongoDB. Перейдіть по посиланню і Вас перенаправить на сайт [https://www.mlab.com](https://www.mlab.com).
