@@ -17,16 +17,20 @@
 ### Heroku
 
 1. Зареєструватись на Heroku
-1. Створити на сайті Heroku новий web-додаток і дати йому унікальне в рамках сервісу доменне ім'я (APP_NAME)
+1. Створити на сайті Heroku новий web-додаток і дати йому унікальне в рамках сервісу доменне ім'я (_APP_NAME_)
 1. Завантажити з офіційного сайту Heroku CLI
 1. Залогінитись у Heroku CLI
-  $ heroku login
+
+  `$ heroku login`
 1. Перейти у Git-репозиторій лабораторної роботи і додати новий remote репозиторій через Heroku CLI
-  $ heroku git:remote -a APP_NAME
+
+  `$ heroku git:remote -a APP_NAME`
+ 
 1. Для відправлення змін до сервера Heroku потрібно виконати push до remote репозиторія __heroku__
-  $ git push heroku master
+
+  `$ git push heroku master`
   
-На основі інформації із package.json Вашого репозиторія remote сервер Heroku запустить екземпляр Вашого веб-додатку, який стане достуупним за посиланням https://APP_NAME.herokuapp.com
+На основі інформації із package.json Вашого репозиторія remote сервер Heroku запустить екземпляр Вашого веб-додатку, який стане достуупним за посиланням https://_APP_NAME_.herokuapp.com
 
 ## Демонстрація
 
