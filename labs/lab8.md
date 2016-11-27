@@ -34,6 +34,50 @@ function doSearch() {
 }
 ~~~~
 
+Для використання сторонньої бібліотеки у клієнтському Javascript потрібно додати у <head></head> посилання на online-версію коду бібліотеки. Наприклад, для Mustache:
+
+~~~~ javascript
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js'></script>
+~~~~
+
+Mustache шаблон задається у тезі <script type="x-tmpl-mustache"></script>
+
+~~~~ html
+  <!-- Шаблон Mustache -->
+	<script id="my-list-template" type="x-tmpl-mustache">
+
+		<div>
+			<ul class="list-group">
+			{{#list}}
+        <li class="list-group-item">
+          <span>{{title}}</span>
+        </li>
+			{{/list}}
+			</ul>
+		</div>
+
+	</script>
+~~~~
+
+Наведений шаблон дозволяє згенерувати HTML список елементів зі списку даних:
+
+~~~~ javascript
+function updateList() {
+  // дані
+  var myList = [
+    { title: 'Title 1' },
+    { title: 'Title 2' },
+    { title: 'Title 3' }
+  ];
+  // отримати об'єкт шаблона із DOM за його ідентифікатором "my-list-template" і взяти його HTML вміст
+	var template = document.getElementById("my-list-template").innerHTML;
+  // згенерувати HTML строку на основі шаблону і даних
+	var renderedHTML = Mustache.render(template, { list: myList });
+  // помістити строку з HTML всередину елемента з ідентифікатором "my-list"
+	document.getElementById("my-list").innerHTML = renderedHTML;
+}
+~~~~
+
 ## Демонстрація
 
 * Продемонструвати часткове оновлення вмісту сторінки за допомогою AJAX-запитів і клієнтського JavaScript.
