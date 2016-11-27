@@ -24,18 +24,12 @@
 ~~~~ javascript
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongodb = require('promised-mongo');
-const crypto = require('crypto');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 
 const app = express();
-const url = 'mongodb://localhost:27017/database';
-const db = mongodb(url);
-
-let sessionSecret = "Some_secret^string";
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -43,70 +37,47 @@ app.use(bodyParser.json());
 app.use(busboyBodyParser({ limit: '5mb' }));
 app.use(cookieParser());
 app.use(session({
-	secret: sessionSecret,
+	secret: "Some_secret^string",
 	resave: false,
 	saveUninitialized: true
 }));
 app.use(passport.initialize());
 app.use(passport.session());
 
-// визначає, яку інформацію зберігати у Cookie сесії (id)
+// визначає, яку інформацію зберігати у Cookie сесії
 passport.serializeUser(function(user, done) {
+    // наприклад, зберегти у Cookie сесії id користувача
     done(null, user._id);
 });
 
 // отримує інформацію (id) із Cookie сесії і шукає користувача, що їй відповідає
 passport.deserializeUser(function(id, done) {
-	db.users.findOne({ _id: mongodb.ObjectId(id) })
-		.then(user => {
-			if(user) {
-				done(null, user);
-			} else {
-				done("No user", null);
-			}
-		})
-		.catch(err => done(err, null));
+	// отримати користувача по id і викликати done(null, user);
+	// при помилці викликати done(err, null)
 });
 
 // налаштування стратегії для визначення користувача, що виконує логін
 // на основі його username та password
 passport.use(new LocalStrategy((username, password, done) => {
-	  db.users.findOne({
-		  username: username,
-		  passwordHash: hash(password)
-	  })
-		.then(user => {
-			if (user) {
-				done(null, user);
-			} else {
-				done(null, false);
-			}
-		})
-		.catch(err => done(err, null));
+	// отримати користувача по його username і password і викликати done(null, user);
+	// при помилці викликати done(err, null)
 }));
 
-// для хешування паролю користувача
-function hash(pass) {
-    const salt = 'Some_salt%%string';
-	return crypto.createHash('md5').update(pass + salt).digest("hex");
-}
-
+// якщо користувач аутентифікований, req.user міститиме його екземпляр
 app.get('/',
 	(req, res) => res.render('users_index', { user: req.user }));
-
-app.get('/login', (req, res) => res.render("users_login"));
-
-// вихід із сесії
-app.get('/logout', (req, res) => {
-	req.logout();  
-	res.redirect('/');
-});
 
 // аутентифікація через PassportJS
 // викликає функцію-обробника із обраної стратегії ('local' - LocalStrategy)
 app.post('/login',
 	passport.authenticate('local', { failureRedirect: '/' }),  
 	(req, res) => res.redirect('/'));
+
+// вихід із сесії
+app.get('/logout', (req, res) => {
+	req.logout();  
+	res.redirect('/');
+});
 
 app.listen(3000, () => console.log('App on 3000'));
 ~~~~
