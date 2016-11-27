@@ -16,7 +16,7 @@
 
 ### Heroku
 
-1. Зареєструватись на Heroku
+1. Зареєструватись на [Heroku](www.heroku.com)
 1. Створити на сайті Heroku новий web-додаток і дати йому унікальне в рамках сервісу доменне ім'я (_APP_NAME_)
 1. Завантажити з офіційного сайту Heroku CLI
 1. Залогінитись у Heroku CLI
@@ -30,7 +30,24 @@
 
   `$ git push heroku master`
   
-На основі інформації із package.json Вашого репозиторія remote сервер Heroku запустить екземпляр Вашого веб-додатку, який стане достуупним за посиланням https://_APP_NAME_.herokuapp.com
+На основі інформації із package.json Вашого репозиторія remote сервер Heroku запустить екземпляр Вашого веб-додатку, який стане доступним за посиланням https://_APP_NAME_.herokuapp.com
+
+### Heroku mLab MongoDB add-on
+
+1. На сайті Heroku на вкладці Resources Вашої програми знайти кнопку (Find More Add-on). 
+1. Після переходу на нову сторінку знайти аддон [__mLab MongoDB__](https://elements.heroku.com/addons/mongolab)
+
+  [!mLab](https://s3.amazonaws.com/assets.heroku.com/addons.heroku.com/icons/343/original.png?1456768674)
+
+1. Залогіньтесь (Login to install), нажміть (Install mLab MongoDB) та оберіть Ваш веб-додаток, для якого потрібно підключити аддон.
+1. Після підключення на вкладці Resources з'явиться інформація про mLab MongoDB. Перейдіть по посиланню і Вас перенаправить на сайт [https://www.mlab.com](https://www.mlab.com).
+
+1. Перейдіть на вкладку Users і створіть нового користувача бази.
+1. Отримайте URL бази у вигляді:
+
+  `mongodb://<dbuser>:<dbpassword>@ds163667.mlab.com:63667/<database_name>`
+  
+1. Додайте URL бази до deploy-конфігурації Вашого веб-додатку
 
 ## Демонстрація
 
