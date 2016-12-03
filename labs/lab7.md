@@ -25,6 +25,8 @@
   Приклад модального вікна видалення елемента:
 
   ![Modal remove item](http://www.jqueryscript.net/images/Lightweight-jQuery-Confirmation-Modal-For-Bootstrap.jpg)
+  
+  Використовувати старндартне вікно браузера (confirm()) __не можна__. Опишіть всласні елемени для модального вікна, або використайте [модальні вікна Bootstrap](http://getbootstrap.com/javascript/#modals).
 
 ## Демонстрація
 
