@@ -38,12 +38,19 @@
 * [JavaScript Promises](https://github.com/PublicHadyniak/webprogbase/wiki/JavaScript-Promises)
 
 #### Мова програмування **Python**
-* [Лекція 1. Основи Python.](https://docs.google.com/document/d/1T3bio3l5GGc9-4XBGFstfcj8i67MfFygu-bYqvB0haU/edit?usp=sharing)
+* [Лекція 1. Основи Python.][python1]
 
 #### Різне
-* [GitHub API OAuth2](https://docs.google.com/document/d/11BCmzX_n2PqQIUvFN_nAUN31lWw_3s0LBi7-tHu_FoM/edit?usp=sharing)
+* [GitHub API OAuth2][github-oauth]
 
 ### Література
-* [Mozilla Developer Network [web]](https://www.google.com.ua/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj-tpK_k4PPAhXpFZoKHZRjB-gQFggcMAA&url=https%3A%2F%2Fdeveloper.mozilla.org%2F&usg=AFQjCNFGY2KSX7T_9FdScwRtzIdZ_YR5ZA&sig2=1MM5BhEoCzB5FTD4w16AAQ)
+* [Mozilla Developer Network [web]][book-mdn]
 * [w3schools.com [web]](http://www.w3schools.com/)
-* [CSS3 Cheat Sheet [pdf]](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)
+* [Дж.Фридл - Регулярные выражения, 3-е изд. - O`Reilly [pdf]][book-regex]
+* [CSS3 Cheat Sheet [pdf]][book-css-sheet]
+
+  [book-regex]: https://drive.google.com/open?id=0B2DT7H96sv8fTWxwRktTYTdIdEE
+  [book-mdn]: https://developer.mozilla.org/en-US/
+  [book-css-sheet]: http://media.mediatemple.netdna-cdn.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf
+  [python1]: https://docs.google.com/document/d/1T3bio3l5GGc9-4XBGFstfcj8i67MfFygu-bYqvB0haU/edit?usp=sharing
+  [github-oauth]: https://docs.google.com/document/d/11BCmzX_n2PqQIUvFN_nAUN31lWw_3s0LBi7-tHu_FoM/edit?usp=sharing
